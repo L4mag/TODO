@@ -1,0 +1,4 @@
+com\example\accessingdatamysql\Note.class
+com\example\accessingdatamysql\AccessingDataMysqlApplication.class
+com\example\accessingdatamysql\MainController.class
+com\example\accessingdatamysql\NoteRepository.class
