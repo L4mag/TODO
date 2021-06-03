@@ -19,12 +19,14 @@ public class Note {
 
     private Date createdAt;
 
-    private Note(){};
-
     public Note(String title, String description){
         this.title = title;
         this.description = description;
         createdAt = new Date();
+    }
+
+    public Note() {
+
     }
 
     public Integer getId() {

@@ -1,0 +1,12 @@
+.description-textarea{
+    font-size: 1.5em;
+
+    width: 400px;
+    height: 100px;
+
+    align-self: center;
+
+    margin-bottom: 10px;
+
+    border: 0px;
+}

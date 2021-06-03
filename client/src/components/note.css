@@ -1,0 +1,26 @@
+.note-title{
+    font-size: 1.2em;
+
+    width: 400px;
+
+    margin-bottom: 0px;
+}
+
+.note-description{
+    font-size: 1.2em;
+
+    width: 400px;
+
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.note-created-at{
+    font-size: 0.8em;
+
+    color: #d3d3d3;
+
+    position: relative;
+    left: 230px;
+    top: 20px;
+}

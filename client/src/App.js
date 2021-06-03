@@ -1,24 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import { Form } from 'reactstrap';
+import TitleField from './components/title-field';
+import DescriptionField from './components/description-field';
+import SubmitButton from './components/submit-button';
+import NotesGroup from './components/notes-group';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Form className="form">
+        <TitleField></TitleField>
+        <DescriptionField></DescriptionField>
+        <SubmitButton></SubmitButton>
+      </Form>
+      <NotesGroup></NotesGroup>
+    </>
   );
 }
 
